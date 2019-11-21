@@ -1,6 +1,6 @@
 # goavro
 
-**Note**: This is a point and time fork of [linkedin/goavro](github.com/linkedin/goavro).  The linkedin library went through a *major* change to move to an api v2.  It is much better and you should migrate your code to that. Our fork of it can be found at [MediaMath/gaovro.v2](github.com/MediaMath/goavro.v2), and if you are writing code for MediaMath you should use that.  This repo will not attempt to maintain parity with the linkedin version and exists for backwards compatibility.  Our official fork will attempt to maintain parity on an as needed basis.
+**Note**: This is a point and time fork of [linkedin/goavro](github.com/linkedin/goavro).  The linkedin library went through a *major* change to move to an api v2.  It is much better and you should migrate your code to that. Our fork of it can be found at [MediaMath/goavro.v2](github.com/MediaMath/goavro.v2), and if you are writing code for MediaMath you should use that.  This repo will not attempt to maintain parity with the linkedin version and exists for backwards compatibility.  Our official fork will attempt to maintain parity on an as needed basis.
 
 ## Description
 
