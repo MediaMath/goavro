@@ -242,20 +242,6 @@ type readerBlock struct {
 	r          io.Reader
 }
 
-func (ocfr *OCFReader) ReadBinary() ([]byte, error) {
-	// NOTE: Test previous error before testing readReady to prevent overwriting
-	// previous error.
-	if ocfr.rerr != nil {
-		return nil, ocfr.rerr
-	}
-	if !ocfr.readReady {
-		ocfr.rerr = errors.New("Read called without successful Scan")
-		return nil, ocfr.rerr
-	}
-
-	return ocfr.block, nil
-}
-
 // ErrReader is returned when the reader encounters an error.
 type ErrReader struct {
 	Message string
