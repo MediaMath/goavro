@@ -23,7 +23,6 @@ import (
 	"bytes"
 	"compress/flate"
 	"encoding/binary"
-	"errors"
 	"fmt"
 	"hash/crc32"
 	"io"
